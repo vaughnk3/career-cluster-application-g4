@@ -3,6 +3,6 @@
 ### TODO: 
 ###      1. Initialize NPM directory with Node & install dependencies 
 ###      2. Use React commands to create boilerplate React file structure
-###      3. Setup server.js file with Express/Node to handle requests & future connectivity between MySQL DB and web app
+###      3. Setup server.js file with Express/Node to handle basic requests & specify the local port which will be used (later on, will be used for future connectivity between MySQL DB and web app)
 ###      4. Begin implementing basic components (cluster/subcluster/career field/pathway containers)
 ## After the server has been initialized, launch the application by navigating to the directory and using "npm start" on the command line 
