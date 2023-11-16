@@ -1,5 +1,5 @@
 // Initialize the map
-const CareerClusterMap = new Map();
+export const CareerClusterMap = new Map();
 
 
 //First Cluster
@@ -175,11 +175,10 @@ function EditFieldEducationLevel (CareerClusterMap, ClusterID, SubClusterID, New
 //console.log(CareerClusterMap.get(1).SubClusters);
 
 
-function GetClusterNameByID (CareerClusterMap, ClusterID) 
+export function GetClusterNameByID (CareerClusterMap, ClusterID) 
 {
     return CareerClusterMap.get(ClusterID).name;
 }
-
 
 
 
