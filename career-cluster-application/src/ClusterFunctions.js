@@ -175,6 +175,16 @@ function EditFieldEducationLevel (CareerClusterMap, ClusterID, SubClusterID, New
 //console.log(CareerClusterMap.get(1).SubClusters);
 
 
+function GetClusterNameByID (CareerClusterMap, ClusterID) 
+{
+    return CareerClusterMap.get(ClusterID).name;
+}
+
+
+
+
+
+
 /*
 /// Test to build up a data system from scratch only using these methods.
 
