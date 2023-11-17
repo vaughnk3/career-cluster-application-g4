@@ -12,7 +12,7 @@ body {
     height: 450px; /* Adjust the height as needed */
     background-color: #253251;
     border-radius: 25px; /* Adjust the border-radius for rounded corners */
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 70px rgba(0, 0, 0, 1);
 }
 
 
