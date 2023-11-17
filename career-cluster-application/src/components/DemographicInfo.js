@@ -1,13 +1,13 @@
 import React from 'react';
 import BottomRectangle from './pageTemplate/BottomRectangle.js';
-
+import TopLeftLogo from './pageTemplate/TopLeftLogo.js'
 
 
 
 const DemographicInfo = () => {
   return (
     <div>
-      <h1>Haiii :3</h1>
+      <TopLeftLogo/>
       <BottomRectangle/>
     </div>
   );
