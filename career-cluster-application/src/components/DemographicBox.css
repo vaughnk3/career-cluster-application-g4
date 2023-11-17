@@ -10,7 +10,7 @@
     min-height: 100vh;
   }*/
 
-  
+
 .demographic-box {
     top: 160px;
     left: 350px;
@@ -34,6 +34,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 0 70px rgba(0, 0, 0, 1);
   }
 
   .header {
