@@ -1,0 +1,7 @@
+.top-left-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
