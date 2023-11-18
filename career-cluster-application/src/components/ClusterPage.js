@@ -14,7 +14,7 @@ const ClusterPage = () => {
     //using the methods in ClusterFunctions.js
     let ValidClusterArray = [];
     
-    for (let i = 1; i < CareerClusterMap.size; i++)
+    for (let i = 1; i <= CareerClusterMap.size; i++)
     {
         if (GetClusterNameByID(CareerClusterMap, i) != 0) 
         {
