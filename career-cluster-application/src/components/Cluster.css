@@ -1,18 +1,23 @@
 .cluster {
 	width: 400px;
 	height: 120px;
+	background-color: #D9D9D9;
+	padding: 30px;
 
-	padding: 20px;
-
-	border: 6px solid #ddd;
+	border: 6px solid #98ac41;
 	border-radius: 30px;
 
 	display: inline-block;
 	margin: 10px;
 
 	text-align: left;
+	
 }
 
 .cluster h2 {
 	margin: 10px;
+}
+
+.cluster-pics {
+	width: 40px;
 }
