@@ -3,16 +3,18 @@ import './BottomRectangle.css';
 
 const BottomRectangle = () => {
     return (
-        <div className="bottom-rectangle">
-            <div className="text-container"></div>
-                <div className="blue-text">GET IN TOUCH</div>
-                <div className="white-text">York County Regional Chamber of Commerce</div>
-                <div className="white-text">116 E Main St. / PO Box 590</div>
-                <div className="white-text">Rock Hill, SC, 29731</div>
-                <div className="white-text">803-324-7500</div>
-            <div/>
-          <img src="./YCRCLogo.png" alt="Left Image" className="image left-image" />
-          <img src="./Accredit.png" alt="Right Image" className="image right-image" />
+        <div id="bottom-rectangle">
+          <div id="bottom-rectangle-container">
+            <img src={require('./YCRCLogo.png')} alt="YCRC Logo"/>
+            <div id="text-container">
+              <h1>GET IN TOUCH</h1>
+              <p>York County Regional Chamber of Commerce</p>
+              <p>116 E Main St. / PO Box 590</p>
+              <p>Rock Hill, SC, 29731</p>
+              <p>803-324-7500</p>
+            </div>
+            <img src={require('./Accredit.png')} alt="Accredited Logo"/>
+          </div>
         </div>
       );
 };

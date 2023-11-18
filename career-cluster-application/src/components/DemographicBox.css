@@ -11,19 +11,38 @@
   }*/
 
 
-.demographic-box {
-    top: 160px;
-    left: 350px;
-    position: absolute;
+#demographic-box {
+    /* centers the box on the page */
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+    margin-left: auto;
+    margin-right: auto;
+
+
     width: 750px; /* width: 750px */ 
     height: 450px; /*height: 450px */
     background-color: #253251;
     border-radius: 25px; /* Adjust the border-radius for rounded corners */
-    box-shadow: 0 0 70px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 50px rgba(0, 0, 0,.5);
 }
 
+#demographic-box-container {
+  padding: 50px;
+}
 
-.submit-button {
+#demographic-box select {
+  margin-bottom: 20px;
+}
+
+#demographic-box h3 {
+  margin: 0px;
+  color: white;
+}
+
+#submit-button {
     position: absolute;
     bottom: 30px; /* Adjust the distance from the bottom as needed */
     left: 50%;
@@ -34,12 +53,13 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 0 70px rgba(0, 0, 0, 1);
-  }
 
-  .header {
-    color: black;
-    margin-bottom: 10px; /* Adjust the margin as needed */
-  }
+    text-decoration: none;
+ }
+
+.header {
+  color: black;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
 
   
