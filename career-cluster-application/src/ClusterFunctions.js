@@ -24,6 +24,27 @@ CareerClusterMap.set(
     }
 )
 
+CareerClusterMap.set(
+    2,
+    {
+        name:'Computer Science',
+        image:'/Some/Url',
+        SubClusters: 
+        [
+            {
+                fieldID: 1,
+                fieldName: 'Software Engineer',
+                fieldImageLink: '/Some/Other/Comp/Url',
+                fieldSalary: '$918,000',
+                fieldDescrip: 'Some comp sci description',
+                fieldGrowthRate: 'Low',
+                fieldEducationLevel: 'Bachelors Degree',
+                //jobsOfField: []
+            }
+        ]
+    }
+)
+
 console.log(CareerClusterMap)
 
 
