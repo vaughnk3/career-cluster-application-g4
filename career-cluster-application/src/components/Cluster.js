@@ -9,7 +9,7 @@ import { GetClusterNameByID } from '../ClusterFunctions.js'
 const Cluster = () => {
   return (
     <div>
-      <h1>{GetClusterNameByID(CareerClusterMap, 1)}</h1>
+      <p>{GetClusterNameByID(CareerClusterMap, 1)}</p>
     </div>
   );
 }
