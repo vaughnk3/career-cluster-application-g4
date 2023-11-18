@@ -5,34 +5,28 @@ const DemographicBox = () => {
   return ( 
     <div id="demographic-box">
       <div id="demographic-box-container">
-        <h3>Grade</h3>
-        <select name="grade" id="grade">
-         <option value="1">1</option>
-         <option value="2">2</option>
-         <option value="3">3</option>
-         <option value="4">4</option>
-        </select>
-        <h3>Grade</h3>
-        <select name="grade" id="grade">
-         <option value="1">1</option>
-         <option value="2">2</option>
-         <option value="3">3</option>
-         <option value="4">4</option>
-        </select>
-        <h3>Grade</h3>
-        <select name="grade" id="grade">
-         <option value="1">1</option>
-         <option value="2">2</option>
-         <option value="3">3</option>
-         <option value="4">4</option>
-        </select>
-        <h3>Grade</h3>
-        <select name="grade" id="grade">
-         <option value="1">1</option>
-         <option value="2">2</option>
-         <option value="3">3</option>
-         <option value="4">4</option>
-        </select>
+        <div class="demographic-item">
+          <h3>School *</h3>
+          <select name="grade" id="grade">
+           <option value="1">1</option>
+          </select>
+        </div>
+        <div class="demographic-item">
+          <h3>Desired Career Field</h3>
+          <select name="grade" id="grade">
+           <option value="1">1</option>
+          </select>
+        </div>
+        <div class="demographic-item">
+          <h3>Grade *</h3>
+          <select name="grade" id="grade">
+           <option value="1">1</option>
+          </select>
+        </div>
+        <div class="demographic-item">
+          <h3>Age</h3>
+          <input type="number" id="fname" name="fname"></input>
+        </div>
       </div>
 
 

@@ -13,46 +13,52 @@
 
 #demographic-box {
     /* centers the box on the page */
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(50%);
-    -ms-transform: translateY(50%);
-    transform: translateY(50%);
     margin-left: auto;
     margin-right: auto;
 
+    text-align: center;
 
-    width: 750px; /* width: 750px */ 
-    height: 450px; /*height: 450px */
+    width: 700px; /* width: 750px */ 
+    height: 420px; /*height: 450px */
     background-color: #253251;
     border-radius: 25px; /* Adjust the border-radius for rounded corners */
-    box-shadow: 0 0 50px rgba(0, 0, 0,.5);
+    box-shadow: 0 0 50px rgba(0, 0, 0,.3);
 }
 
 #demographic-box-container {
   padding: 50px;
 }
 
-#demographic-box select {
-  margin-bottom: 20px;
+.demographic-item {
+  display: inline-block;
+  text-align: left;
+  width: 250px;
+  margin: 15px;
 }
 
-#demographic-box h3 {
+.demographic-item select {
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+.demographic-item h3 {
   margin: 0px;
   color: white;
 }
 
+.demographic-item input {
+  width: 80%;
+}
+
 #submit-button {
-    position: fixed;
-    bottom: 30px; /* Adjust the distance from the bottom as needed */
-    left: 50%;
-    transform: translateX(-50%); /* Center the button horizontally */
+    position: relative;
+    bottom: 20px;
+
     background-color: #98ca41;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
 
     text-decoration: none;
  }
