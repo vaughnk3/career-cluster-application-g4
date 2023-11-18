@@ -7,7 +7,7 @@ CareerClusterMap.set(
     1,
     {
         name:'Mathematics',
-        image:'/Some/Url',
+        image:'./Cluster_Pictures/Mathematics.png',
         SubClusters: 
         [
             {
@@ -24,10 +24,11 @@ CareerClusterMap.set(
     }
 )
 
+//'Computer Science'
 CareerClusterMap.set(
     2,
     {
-        name:'Computer Science',
+        name: 0,
         image:'/Some/Url',
         SubClusters: 
         [
@@ -57,7 +58,7 @@ console.log(CareerClusterMap)
 
 // Function to add a new cluster
 // All it does is set a new cluster in the map
-function AddCluster (CareerClusterMap, ClusterName, ClusterImageLink) 
+export function AddCluster (CareerClusterMap, ClusterName, ClusterImageLink) 
 {
     //It is offset by 1 because it would be the # of clusters already there + one more for the new one being added
     let ClusterID = CareerClusterMap.size + 1;
@@ -72,21 +73,21 @@ function AddCluster (CareerClusterMap, ClusterName, ClusterImageLink)
 }
 
 //Function to update the name in a particular cluster  by inserted ID
-function UpdateClusterName (CareerClusterMap, NewClusterName, ClusterID) 
+export function UpdateClusterName (CareerClusterMap, NewClusterName, ClusterID) 
 {
     CareerClusterMap.get(ClusterID).name = NewClusterName;
 }
 
 
 //Function to update the image link in a particular cluster by inserted ID
-function UpdateClusterImageLink (CareerClusterMap, NewImageLink, ClusterID) 
+export function UpdateClusterImageLink (CareerClusterMap, NewImageLink, ClusterID) 
 {
     CareerClusterMap.get(ClusterID).image = NewImageLink;
 }
 
 //Function to delete cluster by ID
 //To preserve ID's, the entry will remain there, but all the other fields except for ID will be Null.  
-function DeleteCluster (CareerClusterMap, ClusterID)
+export function DeleteCluster (CareerClusterMap, ClusterID)
 {
     CareerClusterMap.get(ClusterID).name = null;
     CareerClusterMap.get(ClusterID).image = null;
@@ -108,7 +109,7 @@ function DeleteCluster (CareerClusterMap, ClusterID)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Adds a new entry into the internal array of a particular cluster to add a new field
-function AddClusterField (CareerClusterMap, ClusterID, FieldName, FieldDescrip, FieldSalary, FieldGrowthR, FieldImageLink, FieldEdLevel) 
+export function AddClusterField (CareerClusterMap, ClusterID, FieldName, FieldDescrip, FieldSalary, FieldGrowthR, FieldImageLink, FieldEdLevel) 
 {
     //The ID of the new cluster field would be the length of the array + 1
     let arrayLength = CareerClusterMap.get(ClusterID).SubClusters.length + 1;
@@ -130,7 +131,7 @@ function AddClusterField (CareerClusterMap, ClusterID, FieldName, FieldDescrip, 
 //console.log(CareerClusterMap.get(1).SubClusters)
 
 
-function DeleteClusterField (CareerClusterMap, ClusterID, SubClusterID) 
+export function DeleteClusterField (CareerClusterMap, ClusterID, SubClusterID) 
 {
     //The subcluster in question is offset by 1 to the ID.  Ex : If you want to delete field #2, you would be deleting the field at index [1], hence the -1
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldName = null;
@@ -145,7 +146,7 @@ function DeleteClusterField (CareerClusterMap, ClusterID, SubClusterID)
 //console.log(CareerClusterMap.get(1).SubClusters)
 
 
-function EditFieldName (CareerClusterMap, ClusterID, SubClusterID, NewFieldName) 
+export function EditFieldName (CareerClusterMap, ClusterID, SubClusterID, NewFieldName) 
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldName = NewFieldName;
 }
@@ -154,7 +155,7 @@ function EditFieldName (CareerClusterMap, ClusterID, SubClusterID, NewFieldName)
 //console.log(CareerClusterMap.get(1).SubClusters)
 
 
-function EditFieldImageLink (CareerClusterMap, ClusterID, SubClusterID, NewImageLink) 
+export function EditFieldImageLink (CareerClusterMap, ClusterID, SubClusterID, NewImageLink) 
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldImageLink = NewImageLink;
 }
@@ -162,7 +163,7 @@ function EditFieldImageLink (CareerClusterMap, ClusterID, SubClusterID, NewImage
 //EditFieldImageLink(CareerClusterMap, 1, 1, 'My New URL');
 //console.log(CareerClusterMap.get(1).SubClusters)
 
-function EditFieldSalary (CareerClusterMap, ClusterID, SubClusterID, NewFieldSalary)
+export function EditFieldSalary (CareerClusterMap, ClusterID, SubClusterID, NewFieldSalary)
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldSalary = NewFieldSalary;
 }
@@ -170,7 +171,7 @@ function EditFieldSalary (CareerClusterMap, ClusterID, SubClusterID, NewFieldSal
 //EditFieldSalary(CareerClusterMap, 1, 1, '$101,901');
 //console.log(CareerClusterMap.get(1).SubClusters);
 
-function EditFieldDescription (CareerClusterMap, ClusterID, SubClusterID, NewFieldDescrip)
+export function EditFieldDescription (CareerClusterMap, ClusterID, SubClusterID, NewFieldDescrip)
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldDescrip = NewFieldDescrip;
 }
@@ -179,7 +180,7 @@ function EditFieldDescription (CareerClusterMap, ClusterID, SubClusterID, NewFie
 //console.log(CareerClusterMap.get(1).SubClusters);
 
 
-function EditFieldGrowthRate (CareerClusterMap, ClusterID, SubClusterID, NewFieldGrowthRate)
+export function EditFieldGrowthRate (CareerClusterMap, ClusterID, SubClusterID, NewFieldGrowthRate)
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldGrowthRate = NewFieldGrowthRate;
 }
@@ -187,7 +188,7 @@ function EditFieldGrowthRate (CareerClusterMap, ClusterID, SubClusterID, NewFiel
 //EditFieldGrowthRate (CareerClusterMap, 1, 1, 'Medium');
 //console.log(CareerClusterMap.get(1).SubClusters);
 
-function EditFieldEducationLevel (CareerClusterMap, ClusterID, SubClusterID, NewEducationLevel) 
+export function EditFieldEducationLevel (CareerClusterMap, ClusterID, SubClusterID, NewEducationLevel) 
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldEducationLevel = NewEducationLevel;
 }
@@ -201,9 +202,13 @@ export function GetClusterNameByID (CareerClusterMap, ClusterID)
     return CareerClusterMap.get(ClusterID).name;
 }
 
+export function GetClusterImageByID (CareerClusterMap, ClusterID) 
+{
+    return CareerClusterMap.get(ClusterID).image;
+}
 
 
-
+//require('./UserIcon.png')
 
 /*
 /// Test to build up a data system from scratch only using these methods.
