@@ -1,0 +1,7 @@
+.top-right-image {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
