@@ -1,8 +1,13 @@
 import React from 'react';
+import TopLeftLogo from './pageTemplate/TopLeftLogo';
+import BottomRectangle from './pageTemplate/BottomRectangle';
 
 const LoginPage = () => {
     return (
-        <h1>This is the login page</h1>
+        <div>
+            <TopLeftLogo/>
+            <BottomRectangle/>
+        </div>
     )
 };
 
