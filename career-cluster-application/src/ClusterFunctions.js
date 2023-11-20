@@ -28,7 +28,7 @@ CareerClusterMap.set(
 CareerClusterMap.set(
     2,
     {
-        name: 0,
+        name: 'Computer Science',
         image:'/Some/Url',
         SubClusters: 
         [
@@ -46,6 +46,47 @@ CareerClusterMap.set(
     }
 )
 
+CareerClusterMap.set(
+    3,
+    {
+        name: 'Art',
+        image:'/Some/Url',
+        SubClusters: 
+        [
+            {
+                fieldID: 1,
+                fieldName: 'Art Person',
+                fieldImageLink: '/Some/Other/Art/Url',
+                fieldSalary: '$1,000',
+                fieldDescrip: 'Some art description',
+                fieldGrowthRate: 'Low',
+                fieldEducationLevel: 'Bachelors Degree',
+                //jobsOfField: []
+            }
+        ]
+    }
+)
+
+CareerClusterMap.set(
+    4,
+    {
+        name: 'Engineering',
+        image:'/Some/Url',
+        SubClusters: 
+        [
+            {
+                fieldID: 1,
+                fieldName: 'Engineering',
+                fieldImageLink: '/Some/Other/Eng/Url',
+                fieldSalary: '$918,000,239.43',
+                fieldDescrip: 'Some engineer description',
+                fieldGrowthRate: 'High',
+                fieldEducationLevel: 'Bachelors Degree',
+                //jobsOfField: []
+            }
+        ]
+    }
+)
 console.log(CareerClusterMap)
 
 

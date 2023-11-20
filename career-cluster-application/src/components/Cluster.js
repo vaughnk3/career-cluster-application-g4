@@ -6,11 +6,11 @@ import { GetClusterNameByID } from '../ClusterFunctions.js'
 import './Cluster.css';
 
 
-const Cluster = () => {
+const Cluster = ( {ID} ) => {
   return (
     <div class="cluster">
-      <h2>{GetClusterNameByID(CareerClusterMap, 1)}</h2>
-      <img src={ GetClusterImageByID(CareerClusterMap, 1) } alt="Cluster Picture" className="cluster-pics"></img>
+      <h2>{GetClusterNameByID(CareerClusterMap, ID)}</h2>
+      <img src={ GetClusterImageByID(CareerClusterMap, ID) } alt="Cluster Picture" className="cluster-pics"></img>
     </div>
   );
 }

@@ -16,13 +16,20 @@ const ClusterPage = () => {
     
     for (let i = 1; i <= CareerClusterMap.size; i++)
     {
-        if (GetClusterNameByID(CareerClusterMap, i) != 0) 
+        if (GetClusterNameByID(CareerClusterMap, i) != null) 
         {
             ValidClusterArray.push(i);
         }
 
     }
     console.log("Valid ARRAY   " , ValidClusterArray)
+
+    let ComponentArray = [];
+    for (let j = 0; j < ValidClusterArray.length; j++) 
+    {
+        ComponentArray.push(<Cluster ID={ValidClusterArray[j]}/>);
+    }
+
     //Now we would know what clusters are valid to be used.  Hopefully there is some way to loop through the ID's 
     // In here and pass them to 'Cluster.js' and get returned the cluster element with the name, image corresponding to the passed ID
 
@@ -30,11 +37,27 @@ const ClusterPage = () => {
     <div>
         <TopRectangle/>
         <UserIcon/>
+        <ul> {ComponentArray} </ul>
+        <BottomRectangle/>
+    </div>
+    )
+}
+
+
+export default ClusterPage;
+
+
+
+/*  THIS IS OUR OLD WAY OF HAVING THE CLUSTERS UP
+
+ <div>
+        <TopRectangle/>
+        <UserIcon/>
         <div id="cluster-container">
-            <Cluster/> 
-            <Cluster/>
-            <Cluster/>
-            <Cluster/>
+            <Cluster ID={1} /> 
+            <Cluster ID={2} />
+            <Cluster ID={1} />
+            <Cluster ID={2} />
         </div>
         
         <BottomRectangle/>
@@ -42,8 +65,6 @@ const ClusterPage = () => {
         
 
     </div>
-    )
-}
 
 
-export default ClusterPage;
+*/
