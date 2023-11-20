@@ -87,6 +87,27 @@ CareerClusterMap.set(
         ]
     }
 )
+
+CareerClusterMap.set(
+    5,
+    {
+        name: 'Im out of ideas lol',
+        image:'/Some/Url',
+        SubClusters: 
+        [
+            {
+                fieldID: 1,
+                fieldName: 'Engineering',
+                fieldImageLink: '/Some/Other/Eng/Url',
+                fieldSalary: '$918,000,239.43',
+                fieldDescrip: 'Some engineer description',
+                fieldGrowthRate: 'High',
+                fieldEducationLevel: 'Bachelors Degree',
+                //jobsOfField: []
+            }
+        ]
+    }
+)
 console.log(CareerClusterMap)
 
 
