@@ -22,7 +22,7 @@ const ClusterPage = () => {
         }
 
     }
-    console.log("Valid ARRAY   " , ValidClusterArray)
+    
 
     let ComponentArray = [];
     for (let j = 0; j < ValidClusterArray.length; j++) 
