@@ -7,10 +7,15 @@ import './Cluster.css';
 
 
 const Cluster = ( {ID} ) => {
+  /*
+  var imagePath = GetClusterImageByID(CareerClusterMap, ID);
+  console.log(imagePath);
+  var image = require(imagePath);
+  */
   return (
     <div class="cluster">
       <h2>{GetClusterNameByID(CareerClusterMap, ID)}</h2>
-      <img src={require( GetClusterImageByID(CareerClusterMap, ID)) } alt="Cluster Picture" className="cluster-pics"></img>
+      <img src={ GetClusterImageByID(CareerClusterMap, ID) } alt="Cluster Picture" className="cluster-pics"></img>
     </div>
   );
 }

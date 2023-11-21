@@ -1,3 +1,5 @@
+import React from "react";
+
 // Initialize the map
 export const CareerClusterMap = new Map();
 
@@ -29,7 +31,7 @@ CareerClusterMap.set(
     2,
     {
         name: 'Computer Science',
-        image:'/Some/Url',
+        image:'./Cluster_Pictures/Mathematics.png',
         SubClusters: 
         [
             {
@@ -50,7 +52,7 @@ CareerClusterMap.set(
     3,
     {
         name: 'Art',
-        image:'/Some/Url',
+        image:'./Cluster_Pictures/Mathematics.png',
         SubClusters: 
         [
             {
@@ -71,7 +73,7 @@ CareerClusterMap.set(
     4,
     {
         name: 'Engineering',
-        image:'/Some/Url',
+        image:'./Cluster_Pictures/Mathematics.png',
         SubClusters: 
         [
             {
@@ -92,7 +94,7 @@ CareerClusterMap.set(
     5,
     {
         name: 'Im out of ideas lol',
-        image:'/Some/Url',
+        image:'./Cluster_Pictures/Mathematics.png',
         SubClusters: 
         [
             {
@@ -266,7 +268,7 @@ export function GetClusterNameByID (CareerClusterMap, ClusterID)
 
 export function GetClusterImageByID (CareerClusterMap, ClusterID) 
 {
-    return String(CareerClusterMap.get(ClusterID).image);
+    return CareerClusterMap.get(ClusterID).image;
 }
 
 
