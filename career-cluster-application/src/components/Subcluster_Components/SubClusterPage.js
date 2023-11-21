@@ -6,7 +6,7 @@ import { GetClusterNameByID } from "../../ClusterFunctions.js";
 import { useLocation } from 'react-router-dom';
 
 const SubClusterPage = ( {} ) => {
-    // const location = useLocation();
+    // const location = useLocation(); 
     // const { clusterID } = location.state || {}; Failed Attempt at sending ID over -- correspondings to attempt with <Link> in Cluster.js
 
     return (

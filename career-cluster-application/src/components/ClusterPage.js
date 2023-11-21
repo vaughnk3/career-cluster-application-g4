@@ -9,10 +9,10 @@ import { GetClusterNameByID } from '../ClusterFunctions.js';
 import './ClusterPage.css';
 
 const ClusterPage = () => {
-    const navigate = useNavigate();
     //This is one idea I had to get all the clusters without null ID's.  
     //In this case, we could loop through this array which stores the valid ID's to get the clusters we want
     //using the methods in ClusterFunctions.js
+    const navigate = useNavigate();
     const handleClusterClick = (ID) => {
         navigate('/cluster/subcluster')
         console.log(ID)
