@@ -266,7 +266,7 @@ export function GetClusterNameByID (CareerClusterMap, ClusterID)
 
 export function GetClusterImageByID (CareerClusterMap, ClusterID) 
 {
-    return CareerClusterMap.get(ClusterID).image;
+    return String(CareerClusterMap.get(ClusterID).image);
 }
 
 

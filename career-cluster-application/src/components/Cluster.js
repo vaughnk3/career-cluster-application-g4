@@ -10,7 +10,7 @@ const Cluster = ( {ID} ) => {
   return (
     <div class="cluster">
       <h2>{GetClusterNameByID(CareerClusterMap, ID)}</h2>
-      <img src={ GetClusterImageByID(CareerClusterMap, ID) } alt="Cluster Picture" className="cluster-pics"></img>
+      <img src={require( GetClusterImageByID(CareerClusterMap, ID)) } alt="Cluster Picture" className="cluster-pics"></img>
     </div>
   );
 }
