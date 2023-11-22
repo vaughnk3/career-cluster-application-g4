@@ -11,7 +11,7 @@ const SubCluster = ( {ID, subID} ) => {
     return (
         <div class="subcluster"> 
             <h2> { GetFieldNameByIDS(CareerClusterMap, ID, subID) } </h2>
-            <h3> { GetFieldImageByIDS(CareerClusterMap, ID, subID) } </h3>
+            <img src={ GetFieldImageByIDS(CareerClusterMap, ID, subID) } alt="SubCluster Picture" className="subcluster-pics"></img>
         </div>
     );
 };
