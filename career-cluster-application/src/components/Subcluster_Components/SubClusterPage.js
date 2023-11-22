@@ -28,6 +28,7 @@ const SubClusterPage = ( {} ) => {
     //Get all the good subcluster "ids" to know which ones to list.
     let SubClusterArray = GetFieldsByID (CareerClusterMap, ClusterID);
     let GoodSubClusterArary = [];
+    //If the name of the subcluster is not null, store its ID
     for (let i = 0; i < SubClusterArray.length; i++)
     {
         if (GetFieldNameByIDS(CareerClusterMap, ClusterID, i) != null)

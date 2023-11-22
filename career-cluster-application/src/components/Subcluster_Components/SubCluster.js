@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 import { GetClusterNameByID } from '../../ClusterFunctions.js'
 import { GetFieldNameByIDS } from "../../ClusterFunctions";
 import { GetFieldImageByIDS } from "../../ClusterFunctions";
+import './SubCluster.css'
 
 const SubCluster = ( {ID, subID} ) => {
     return (
-        <div className="subcluster"> 
+        <div class="subcluster"> 
             <h2> { GetFieldNameByIDS(CareerClusterMap, ID, subID) } </h2>
             <h3> { GetFieldImageByIDS(CareerClusterMap, ID, subID) } </h3>
         </div>
