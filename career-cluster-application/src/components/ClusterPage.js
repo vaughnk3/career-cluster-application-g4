@@ -7,6 +7,7 @@ import TopRectangle from "./pageTemplate/TopRectangle.js";
 import { CareerClusterMap } from '../ClusterFunctions.js';
 import { GetClusterNameByID } from '../ClusterFunctions.js';
 import './ClusterPage.css';
+import FinalCluster from "../ClusterFunctions.js";
 
 const ClusterPage = () => {
     //This is one idea I had to get all the clusters without null ID's.  
@@ -16,8 +17,14 @@ const ClusterPage = () => {
     const handleClusterClick = (ID) => {
         navigate('/cluster/subcluster')
         console.log(ID)
-        
-        return ID
+        //FinalCluster = ID;
+        for (let i = 1; i <= CareerClusterMap.size; i++)
+        {
+            CareerClusterMap.get(i).final = null;
+        }
+        console.log(CareerClusterMap.get(ID))
+        CareerClusterMap.get(ID).final = ID;
+        return ID;
     }
 
     let ValidClusterArray = [];
@@ -36,7 +43,6 @@ const ClusterPage = () => {
     for (let j = 0; j < ValidClusterArray.length; j++) 
     {
         ComponentArray.push(<Cluster ID={ValidClusterArray[j]} onClick={handleClusterClick} />);
-        
     }
 
     //Now we would know what clusters are valid to be used.  Hopefully there is some way to loop through the ID's 
