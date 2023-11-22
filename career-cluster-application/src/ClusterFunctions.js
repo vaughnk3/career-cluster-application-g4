@@ -3,6 +3,8 @@ import React from "react";
 // Initialize the map
 export const CareerClusterMap = new Map();
 
+const FinalCluster = null;
+export default FinalCluster;
 
 //First Cluster
 CareerClusterMap.set(
@@ -10,12 +12,35 @@ CareerClusterMap.set(
     {
         name:'Mathematics',
         image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
         SubClusters: 
         [
             {
                 fieldID: 1,
                 fieldName: 'Statistician',
-                fieldImageLink: '/Some/Other/Url',
+                fieldImageLink: '/Some/Other/Url1',
+                fieldSalary: '$98,000',
+                fieldDescrip: 'Some description of the field',
+                fieldGrowthRate: 'High',
+                fieldEducationLevel: 'Masters Degree',
+                //jobsOfField: []
+            }, 
+
+            {
+                fieldID: 2,
+                fieldName: 'Mickey Math',
+                fieldImageLink: '/Some/Other/Url2',
+                fieldSalary: '$98,000',
+                fieldDescrip: 'Some description of the field',
+                fieldGrowthRate: 'High',
+                fieldEducationLevel: 'Masters Degree',
+                //jobsOfField: []
+            },
+
+            {
+                fieldID: 3,
+                fieldName: 'Gavin Field',
+                fieldImageLink: '/Some/Other/Url3',
                 fieldSalary: '$98,000',
                 fieldDescrip: 'Some description of the field',
                 fieldGrowthRate: 'High',
@@ -32,6 +57,7 @@ CareerClusterMap.set(
     {
         name: 'Computer Science',
         image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
         SubClusters: 
         [
             {
@@ -53,6 +79,7 @@ CareerClusterMap.set(
     {
         name: 'Art',
         image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
         SubClusters: 
         [
             {
@@ -74,6 +101,7 @@ CareerClusterMap.set(
     {
         name: 'Engineering',
         image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
         SubClusters: 
         [
             {
@@ -95,6 +123,7 @@ CareerClusterMap.set(
     {
         name: 'Im out of ideas lol',
         image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
         SubClusters: 
         [
             {
@@ -271,7 +300,21 @@ export function GetClusterImageByID (CareerClusterMap, ClusterID)
     return CareerClusterMap.get(ClusterID).image;
 }
 
+export function GetFieldsByID (CareerClusterMap, ClusterID) 
+{
+    return CareerClusterMap.get(ClusterID).SubClusters;
+}
 
+
+export function GetFieldNameByIDS (CareerClusterMap, ClusterID, SubID)
+{
+    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldName;
+}
+
+export function GetFieldImageByIDS (CareerClusterMap, ClusterID, SubID)
+{
+    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldImageLink;
+}
 //require('./UserIcon.png')
 
 /*
