@@ -160,7 +160,8 @@ export function AddCluster (CareerClusterMap, ClusterName, ClusterImageLink)
         {
             name:ClusterName,
             image:ClusterImageLink,
-            SubClusters: []
+            SubClusters: [],
+            final:null
         }
     )
 }
@@ -183,7 +184,7 @@ export function UpdateClusterImageLink (CareerClusterMap, NewImageLink, ClusterI
 export function DeleteCluster (CareerClusterMap, ClusterID)
 {
     CareerClusterMap.get(ClusterID).name = null;
-    CareerClusterMap.get(ClusterID).image = null;
+    //CareerClusterMap.get(ClusterID).image = null;
 }
 
 
@@ -228,11 +229,11 @@ export function DeleteClusterField (CareerClusterMap, ClusterID, SubClusterID)
 {
     //The subcluster in question is offset by 1 to the ID.  Ex : If you want to delete field #2, you would be deleting the field at index [1], hence the -1
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldName = null;
-    CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldImageLink = null;
-    CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldSalary = null;
-    CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldDescrip = null;
-    CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldGrowthRate = null;
-    CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldEducationLevel = null;
+    //CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldImageLink = null;
+    //CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldSalary = null;
+    //CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldDescrip = null;
+    //CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldGrowthRate = null;
+    //CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldEducationLevel = null;
 }
 
 //DeleteClusterField(CareerClusterMap, 1, 1);
@@ -315,6 +316,11 @@ export function GetFieldImageByIDS (CareerClusterMap, ClusterID, SubID)
 {
     return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldImageLink;
 }
+
+
+
+
+
 //require('./UserIcon.png')
 
 /*

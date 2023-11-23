@@ -7,10 +7,12 @@
 	border-radius: 60px;
     padding: 20px;
     display: inline-block;
+    text-align: left;
 }
 
 .subcluster h2 {
     margin: 10px;
+    font-size: larger;
 }
 
 .subcluster-pics {
