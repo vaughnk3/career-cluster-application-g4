@@ -10,10 +10,12 @@ import './SubCluster.css'
 const SubCluster = ( {ID, subID} ) => {
     return (
         <div class="subcluster"> 
-            <img src={ GetFieldImageByIDS(CareerClusterMap, ID, subID) } alt="SubCluster Picture" className="subcluster-pics"></img>
+            <img src={ require('../Cluster_Pictures/Mathematics.png') } alt="SubCluster Picture" className="subcluster-pics"></img>
             <h2> { GetFieldNameByIDS(CareerClusterMap, ID, subID) } </h2>
         </div>
     );
 };
 
 export default SubCluster
+
+//GetFieldImageByIDS(CareerClusterMap, ID, subID)

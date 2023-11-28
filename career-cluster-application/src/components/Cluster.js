@@ -15,7 +15,7 @@ const Cluster = ( {ID, onClick} ) => {
   */
   return (
     <div onClick={() => onClick(ID)} class="cluster">
-      <img src={ GetClusterImageByID(CareerClusterMap, ID) } alt="Cluster Picture" className="cluster-pics"></img>
+      <img src={require('./Cluster_Pictures/Mathematics.png') } alt="Cluster Picture" className="cluster-pics"></img>
       <h2>{GetClusterNameByID(CareerClusterMap, ID)}</h2>
 
       {/* <Link to={{pathname: '/cluster/subcluster', state: {clusterID:  ID }}}>
