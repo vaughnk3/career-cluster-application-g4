@@ -8,6 +8,7 @@ import { GetFieldNameByIDS } from "../../ClusterFunctions.js";
 import { useLocation } from 'react-router-dom';
 import SubCluster from "./SubCluster.js";
 import FinalCluster  from "../../ClusterFunctions.js";
+import './SubClusterPage.css'
 
 const SubClusterPage = ( {} ) => {
     // const location = useLocation(); 
@@ -47,7 +48,9 @@ const SubClusterPage = ( {} ) => {
 
     return (
         <div>
-            <TopRectangle/>
+        <div id="_topRectangle">
+            <p>Please select a subcluster within the career cluster.</p>
+        </div>
             <UserIcon/>
             {/* <h1 id="test">{clusterID}</h1> */}
             <p> {ClusterID} </p>

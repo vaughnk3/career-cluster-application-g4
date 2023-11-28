@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Cluster from './Cluster.js'
 import BottomRectangle from "./pageTemplate/BottomRectangle.js";
 import UserIcon from "./pageTemplate/UserIcon.js";
@@ -14,9 +14,11 @@ const ClusterPage = () => {
     //In this case, we could loop through this array which stores the valid ID's to get the clusters we want
     //using the methods in ClusterFunctions.js
     const navigate = useNavigate();
+    const [selectedCluster, setSelectedCluster] = useState(null);
+
     const handleClusterClick = (ID) => {
-        navigate('/cluster/subcluster')
         console.log(ID)
+        navigate('/cluster/subcluster')
         //FinalCluster = ID;
         for (let i = 1; i <= CareerClusterMap.size; i++)
         {
@@ -25,6 +27,11 @@ const ClusterPage = () => {
         console.log(CareerClusterMap.get(ID))
         CareerClusterMap.get(ID).final = ID;
         return ID;
+    }
+
+    const handleFormSubmit =(e) => {
+        e.preventDefault();
+        navigate('/cluster/subcluster')
     }
 
     let ValidClusterArray = [];
@@ -42,7 +49,11 @@ const ClusterPage = () => {
     let ComponentArray = [];
     for (let j = 0; j < ValidClusterArray.length; j++) 
     {
-        ComponentArray.push(<Cluster ID={ValidClusterArray[j]} onClick={handleClusterClick} />);
+        ComponentArray.push(   
+        <form id="form" key={ValidClusterArray[j]} onSubmit={handleFormSubmit} >
+            <Cluster ID={ValidClusterArray[j]} onClick={handleClusterClick} />
+        </form>
+        );
     }
 
     //Now we would know what clusters are valid to be used.  Hopefully there is some way to loop through the ID's 
@@ -50,11 +61,18 @@ const ClusterPage = () => {
 
     return (
     <div>
-        <TopRectangle/>
+        <div id="topRectangle">
+            <h1>Welcome</h1>
+            <p>Please select a cluster that interests you. This website will help match you with potential careers in your area of interest.</p>
+        </div>
         <UserIcon/>
-        <ul id="c_array"> {ComponentArray} </ul>
-        
+ 
+            <li id="c_array">{ComponentArray}</li>
+     
+
+  
         <BottomRectangle/>
+
     </div>
     )
 }

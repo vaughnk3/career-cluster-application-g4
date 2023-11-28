@@ -13,6 +13,10 @@
 	
 }
 
+.subcluster:hover {
+	background-color: #253251;
+	color:white;
+}
 .subcluster h2 {
 	height:7rem;
 	display:flex;
