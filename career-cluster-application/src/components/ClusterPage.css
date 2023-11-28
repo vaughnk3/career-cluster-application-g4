@@ -1,8 +1,13 @@
-#cluster-container {
-	position: relative;
-	top: 100px;
-	margin-left: 20%;
-	margin-right: 20%;
 
-	text-align: center;
+#c_array {
+	display: flex;
+	flex-wrap:wrap;
+	
+	overflow-y:scroll;
+}
+
+#cluster-container:after {
+	content: "";
+	display:table;
+	clear:both;
 }

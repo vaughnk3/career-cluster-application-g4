@@ -10,8 +10,8 @@ import './SubCluster.css'
 const SubCluster = ( {ID, subID} ) => {
     return (
         <div class="subcluster"> 
-            <h2> { GetFieldNameByIDS(CareerClusterMap, ID, subID) } </h2>
             <img src={ GetFieldImageByIDS(CareerClusterMap, ID, subID) } alt="SubCluster Picture" className="subcluster-pics"></img>
+            <h2> { GetFieldNameByIDS(CareerClusterMap, ID, subID) } </h2>
         </div>
     );
 };

@@ -139,6 +139,94 @@ CareerClusterMap.set(
         ]
     }
 )
+
+CareerClusterMap.set(
+    6,
+    {
+        name: 'Sample 1',
+        image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
+        SubClusters: 
+        [
+            {
+                fieldID: 1,
+                fieldName: 'Engineering',
+                fieldImageLink: '/Some/Other/Eng/Url',
+                fieldSalary: '$918,000,239.43',
+                fieldDescrip: 'Some engineer description',
+                fieldGrowthRate: 'High',
+                fieldEducationLevel: 'Bachelors Degree',
+                //jobsOfField: []
+            }
+        ]
+    }
+)
+
+CareerClusterMap.set(
+    7,
+    {
+        name: 'Sample 2 babey wahoo',
+        image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
+        SubClusters: 
+        [
+            {
+                fieldID: 1,
+                fieldName: 'Engineering',
+                fieldImageLink: '/Some/Other/Eng/Url',
+                fieldSalary: '$918,000,239.43',
+                fieldDescrip: 'Some engineer description',
+                fieldGrowthRate: 'High',
+                fieldEducationLevel: 'Bachelors Degree',
+                //jobsOfField: []
+            }
+        ]
+    }
+)
+
+CareerClusterMap.set(
+    8,
+    {
+        name: 'Sample three =B',
+        image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
+        SubClusters: 
+        [
+            {
+                fieldID: 1,
+                fieldName: 'Engineering',
+                fieldImageLink: '/Some/Other/Eng/Url',
+                fieldSalary: '$918,000,239.43',
+                fieldDescrip: 'Some engineer description',
+                fieldGrowthRate: 'High',
+                fieldEducationLevel: 'Bachelors Degree',
+                //jobsOfField: []
+            }
+        ]
+    }
+)
+
+CareerClusterMap.set(
+    9,
+    {
+        name: 'Eduardo',
+        image:'./Cluster_Pictures/Mathematics.png',
+        final: null,
+        SubClusters: 
+        [
+            {
+                fieldID: 1,
+                fieldName: 'Engineering',
+                fieldImageLink: '/Some/Other/Eng/Url',
+                fieldSalary: '$918,000,239.43',
+                fieldDescrip: 'Some engineer description',
+                fieldGrowthRate: 'High',
+                fieldEducationLevel: 'Bachelors Degree',
+                //jobsOfField: []
+            }
+        ]
+    }
+)
 console.log(CareerClusterMap)
 
 

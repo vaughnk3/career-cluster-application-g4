@@ -52,7 +52,7 @@ const ClusterPage = () => {
     <div>
         <TopRectangle/>
         <UserIcon/>
-        <ul> {ComponentArray} </ul>
+        <ul id="c_array"> {ComponentArray} </ul>
         
         <BottomRectangle/>
     </div>

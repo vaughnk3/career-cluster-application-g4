@@ -15,9 +15,9 @@ const Cluster = ( {ID, onClick} ) => {
   */
   return (
     <div onClick={() => onClick(ID)} class="cluster">
-    
-      <h2>{GetClusterNameByID(CareerClusterMap, ID)}</h2>
       <img src={ GetClusterImageByID(CareerClusterMap, ID) } alt="Cluster Picture" className="cluster-pics"></img>
+      <h2>{GetClusterNameByID(CareerClusterMap, ID)}</h2>
+
       {/* <Link to={{pathname: '/cluster/subcluster', state: {clusterID:  ID }}}>
         Go to Subcluster ------- Failed Attempt to send ID 
       </Link>    */}

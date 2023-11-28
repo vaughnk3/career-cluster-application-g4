@@ -49,8 +49,6 @@ const SubClusterPage = ( {} ) => {
         <div>
             <TopRectangle/>
             <UserIcon/>
-            <h1> Sub Cluster Page </h1>
-            <h1> Haiiiii </h1>
             {/* <h1 id="test">{clusterID}</h1> */}
             <p> {ClusterID} </p>
             <ul> {subComponentArray} </ul>
