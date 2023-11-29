@@ -7,9 +7,9 @@ import { GetFieldNameByIDS } from "../../ClusterFunctions";
 import { GetFieldImageByIDS } from "../../ClusterFunctions";
 import './SubCluster.css'
 
-const SubCluster = ( {ID, subID} ) => {
+const SubCluster = ( {ID, subID, onClick} ) => {
     return (
-        <div class="subcluster"> 
+        <div onClick={() => onClick(subID)} class="subcluster"> 
             <img src={ require('../Cluster_Pictures/Mathematics.png') } alt="SubCluster Picture" className="subcluster-pics"></img>
             <h2> { GetFieldNameByIDS(CareerClusterMap, ID, subID) } </h2>
         </div>
