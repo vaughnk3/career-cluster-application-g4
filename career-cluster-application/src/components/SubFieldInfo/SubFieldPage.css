@@ -1,0 +1,63 @@
+.inline {
+    list-style-type: none;
+    display: inline;
+}
+
+.fInline {
+    display:inline;
+    color:#98CA41;
+    font-weight: 800;
+    margin-left:5%;
+    font-size:3rem;
+    
+}
+
+#fName {
+    color:#253251;
+    font-size:4rem;    
+    text-align: left; 
+    margin-bottom:2%;
+}
+
+#fDesc {
+    color:#253251;
+    font-size:1.25rem;  
+    width:80%;
+    text-align: left;
+}
+
+.fInlineTitle {
+    display: inline;
+    margin-left:5%;
+    font-size:2rem;
+    
+}
+
+#topLeft {
+    width:50%;
+    margin-left:15%;
+}
+
+#bottomMiddle {
+    border:2px solid red;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+#row {
+    display: flex;
+    margin-top:5%;
+}
+
+#jobPostings {
+    height:3.5rem;
+    width:15rem;
+    background-color:#98CA41;
+    font-size:1rem;
+    font-weight: 700;
+    color:black;
+    border:0;
+    border-radius:5px;
+    margin-left:5%;
+    cursor: pointer;
+}

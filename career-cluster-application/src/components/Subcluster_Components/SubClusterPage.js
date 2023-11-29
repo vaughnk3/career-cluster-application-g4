@@ -88,6 +88,7 @@ const SubClusterPage = ( {} ) => {
         <div id="_topRectangle">
             <p>Please select a subcluster within the career cluster.</p>
         </div>
+        <br></br><br></br><br></br><br></br><br></br>
             <UserIcon/>
             {/* <h1 id="test">{clusterID}</h1> */}
             <p> {ClusterID} </p>

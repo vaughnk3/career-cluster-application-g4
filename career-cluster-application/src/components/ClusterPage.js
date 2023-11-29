@@ -65,6 +65,7 @@ const ClusterPage = () => {
             <h1>Welcome</h1>
             <p>Please select a cluster that interests you. This website will help match you with potential careers in your area of interest.</p>
         </div>
+        <br></br><br></br><br></br><br></br><br></br><br></br> 
         <UserIcon/>
  
             <li id="c_array">{ComponentArray}</li>

@@ -42,7 +42,7 @@ CareerClusterMap.set(
                 fieldName: 'Athletic Training',
                 fieldImageLink: '/Some/Other/Url2',
                 fieldSalary: '$98,000',
-                fieldDescrip: 'Some description of the field',
+                fieldDescrip: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique laoreet risus, nec varius velit suscipit sit amet. Vivamus quis libero diam. Nullam lorem velit, hendrerit sit amet neque quis, rhoncus tristique ante. Maecenas vitae molestie urna. Vestibulum sed quam pharetra, placerat diam vel, mollis justo. Morbi fermentum turpis quis consectetur pretium. Maecenas cursus nisi non porttitor sollicitudin. Cras vulputate odio dui, nec varius augue tempus a. Cras nec nisl eget mi suscipit blandit a et ante. Proin vel sollicitudin mi. Ut eget massa vestibulum augue venenatis feugiat et sed mi. Aliquam eget ante non arcu ornare blandit. Nullam sit amet vestibulum leo. Nam vitae mauris vitae dolor malesuada efficitur',
                 fieldGrowthRate: 'High',
                 fieldEducationLevel: 'Masters Degree',
                 //jobsOfField: []
@@ -397,7 +397,7 @@ CareerClusterMap.set(
                 fieldName: 'Criminal Justice',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
-                fieldDescrip: 'Some comp sci description',
+                fieldDescrip: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique laoreet risus, nec varius velit suscipit sit amet. Vivamus quis libero diam. Nullam lorem velit, hendrerit sit amet neque quis, rhoncus tristique ante. Maecenas vitae molestie urna. Vestibulum sed quam pharetra, placerat diam vel, mollis justo. Morbi fermentum turpis quis consectetur pretium. Maecenas cursus nisi non porttitor sollicitudin. Cras vulputate odio dui, nec varius augue tempus a. Cras nec nisl eget mi suscipit blandit a et ante. Proin vel sollicitudin mi. Ut eget massa vestibulum augue venenatis feugiat et sed mi. Aliquam eget ante non arcu ornare blandit. Nullam sit amet vestibulum leo. Nam vitae mauris vitae dolor malesuada efficitur',
                 fieldGrowthRate: 'Low',
                 fieldEducationLevel: 'Bachelors Degree',
                 //jobsOfField: []
