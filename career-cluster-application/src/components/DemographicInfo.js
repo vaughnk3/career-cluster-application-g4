@@ -9,13 +9,17 @@ import './DemographicInfo.css';
 const DemographicInfo = () => {
   return (
     <div>
-      <h2>To gain access to the career cluster tool,</h2>
-      <h2>please enter your demographic information below</h2> 
-      <h3>(Fields marked with * are required)</h3>
-      <TopLeftLogo/>
-      <UserIcon/>
+      <div id="topbar">
+        <TopLeftLogo/>
+        <UserIcon/>
+      </div>
+      <div id="content">
+        <h2>To gain access to the career cluster tool,</h2>
+        <h2>please enter your demographic information below</h2> 
+        <h3>(Fields marked with * are required)</h3>
+        <DemographicBox/>
+      </div>
       <BottomRectangle/>
-      <DemographicBox/>
     </div>
   );
 }
