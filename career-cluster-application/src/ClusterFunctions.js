@@ -1150,7 +1150,7 @@ export function GetFieldGrowthRateByIDS(CareerClusterMap, ClusterID, SubID)
 
 export function GetFieldEdLevelByIDS(CareerClusterMap, ClusterID, SubID)
 {
-    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldDescrip;
+    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldEducationLevel;
 }
 
 
