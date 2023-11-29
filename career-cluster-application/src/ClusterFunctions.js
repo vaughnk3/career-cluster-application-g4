@@ -26,6 +26,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Actuarial Science',
                 fieldImageLink: '/Some/Other/Url1',
                 fieldSalary: '$98,000',
@@ -37,6 +38,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Athletic Training',
                 fieldImageLink: '/Some/Other/Url2',
                 fieldSalary: '$98,000',
@@ -48,6 +50,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Biological Sciences',
                 fieldImageLink: '/Some/Other/Url3',
                 fieldSalary: '$98,000',
@@ -59,6 +62,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Environmental Science',
                 fieldImageLink: '/Some/Other/Url3',
                 fieldSalary: '$98,000',
@@ -82,6 +86,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Real Estate',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -93,6 +98,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Civil Engineering',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -104,6 +110,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Interior Design',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -115,6 +122,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Management Information Systems',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -137,6 +145,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Art History',
                 fieldImageLink: '/Some/Other/Art/Url',
                 fieldSalary: '$1,000',
@@ -148,6 +157,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Media Studies',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -159,6 +169,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Music Composition',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -170,6 +181,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Music Theory',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -192,6 +204,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Business Accounting',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -203,6 +216,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'International Affairs',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -214,6 +228,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Statistics',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -225,6 +240,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Entrepenuership',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -247,6 +263,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Audiology',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -258,6 +275,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Early Childhood Education',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -269,6 +287,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'History',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -280,6 +299,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'English Education',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -302,6 +322,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Risk Management',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -313,6 +334,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Insurance',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -324,6 +346,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Business Finance',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -335,6 +358,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Human Resources',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -357,6 +381,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Human Resources Management',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -368,6 +393,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Criminal Justice',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -379,6 +405,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Political Science',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -390,6 +417,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Philisophy',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -412,6 +440,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Athletic Training',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -423,6 +452,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Biomathematics',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -434,6 +464,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Sport Management',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -445,6 +476,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Nursing',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -467,6 +499,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Foreign Languages',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -478,6 +511,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Sociology',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -489,6 +523,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Marketing',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -500,6 +535,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'International Studies',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -523,6 +559,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Audiologist',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -534,6 +571,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Speech Pathology',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -545,6 +583,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Human Studies',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -556,6 +595,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Communication Disorder Studies',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -580,6 +620,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Computer Science',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -591,6 +632,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Web Development',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -602,6 +644,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Computer Design',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -613,6 +656,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Business Management Systems',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -635,6 +679,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Computer Criminology',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -646,6 +691,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Criminal Justice',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -657,6 +703,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Foreign Languages',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -668,6 +715,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Political Science',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -691,6 +739,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Biochemistry',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -702,6 +751,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Chemical Engineering',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -713,6 +763,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Mechanical Engineering',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -724,6 +775,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Industrial Engineering',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -746,6 +798,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Accounting',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -757,6 +810,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Merchandising',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -768,6 +822,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Product Development',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -779,6 +834,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Professional Sales',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -802,6 +858,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Applied Mathematics',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -813,6 +870,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Electrical Engineering',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -824,6 +882,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Chemical Engineering',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -835,6 +894,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Industrial Engineering',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -858,6 +918,7 @@ CareerClusterMap.set(
         [
             {
                 fieldID: 1,
+                fieldFinal: null,
                 fieldName: 'Human Resources',
                 fieldImageLink: '/Some/Other/Eng/Url',
                 fieldSalary: '$918,000,239.43',
@@ -869,6 +930,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 2,
+                fieldFinal: null,
                 fieldName: 'Civil Engineering',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -880,6 +942,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 3,
+                fieldFinal: null,
                 fieldName: 'Business Management',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -891,6 +954,7 @@ CareerClusterMap.set(
 
             {
                 fieldID: 4,
+                fieldFinal: null,
                 fieldName: 'Real Estate3',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
@@ -983,10 +1047,6 @@ export function AddClusterField (CareerClusterMap, ClusterID, FieldName, FieldDe
     )
 }
 
-//AddClusterField(CareerClusterMap, 1, 'DevOps', 'Some descrip', '$32,900', 'High', 'Some url', 'College')
-//AddClusterField(CareerClusterMap, 1, 'Soft', 'Some descript two', '$3we2,900', 'Low', 'Some url new', 'High school')
-//console.log(CareerClusterMap.get(1).SubClusters)
-
 
 export function DeleteClusterField (CareerClusterMap, ClusterID, SubClusterID) 
 {
@@ -999,17 +1059,11 @@ export function DeleteClusterField (CareerClusterMap, ClusterID, SubClusterID)
     //CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldEducationLevel = null;
 }
 
-//DeleteClusterField(CareerClusterMap, 1, 1);
-//console.log(CareerClusterMap.get(1).SubClusters)
-
 
 export function EditFieldName (CareerClusterMap, ClusterID, SubClusterID, NewFieldName) 
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldName = NewFieldName;
 }
-
-//EditFieldName (CareerClusterMap, 1, 1, 'Mickey Mouse');
-//console.log(CareerClusterMap.get(1).SubClusters)
 
 
 export function EditFieldImageLink (CareerClusterMap, ClusterID, SubClusterID, NewImageLink) 
@@ -1017,24 +1071,17 @@ export function EditFieldImageLink (CareerClusterMap, ClusterID, SubClusterID, N
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldImageLink = NewImageLink;
 }
 
-//EditFieldImageLink(CareerClusterMap, 1, 1, 'My New URL');
-//console.log(CareerClusterMap.get(1).SubClusters)
 
 export function EditFieldSalary (CareerClusterMap, ClusterID, SubClusterID, NewFieldSalary)
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldSalary = NewFieldSalary;
 }
 
-//EditFieldSalary(CareerClusterMap, 1, 1, '$101,901');
-//console.log(CareerClusterMap.get(1).SubClusters);
 
 export function EditFieldDescription (CareerClusterMap, ClusterID, SubClusterID, NewFieldDescrip)
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldDescrip = NewFieldDescrip;
 }
-
-//EditFieldDescription (CareerClusterMap, 1, 1, 'My new description test');
-//console.log(CareerClusterMap.get(1).SubClusters);
 
 
 export function EditFieldGrowthRate (CareerClusterMap, ClusterID, SubClusterID, NewFieldGrowthRate)
@@ -1042,28 +1089,29 @@ export function EditFieldGrowthRate (CareerClusterMap, ClusterID, SubClusterID, 
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldGrowthRate = NewFieldGrowthRate;
 }
 
-//EditFieldGrowthRate (CareerClusterMap, 1, 1, 'Medium');
-//console.log(CareerClusterMap.get(1).SubClusters);
 
 export function EditFieldEducationLevel (CareerClusterMap, ClusterID, SubClusterID, NewEducationLevel) 
 {
     CareerClusterMap.get(ClusterID).SubClusters[SubClusterID - 1].fieldEducationLevel = NewEducationLevel;
 }
 
-//EditFieldEducationLevel (CareerClusterMap, 1, 1, 'Kindergarten');
-//console.log(CareerClusterMap.get(1).SubClusters);
 
+/****************************************************************/
+/****************************************************************/
+//Getter functions
 
 export function GetClusterNameByID (CareerClusterMap, ClusterID) 
 {
     return CareerClusterMap.get(ClusterID).name;
 }
 
+
 export function GetClusterImageByID (CareerClusterMap, ClusterID) 
 {
     return 'data:image/png;base64, ' + CareerClusterMap.get(ClusterID).image;
     //return CareerClusterMap.get(ClusterID).image;
 }
+
 
 export function GetFieldsByID (CareerClusterMap, ClusterID) 
 {
@@ -1082,34 +1130,31 @@ export function GetFieldImageByIDS (CareerClusterMap, ClusterID, SubID)
 }
 
 
+export function GetFieldSalaryByIDS(CareerClusterMap, ClusterID, SubID) 
+{
+    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldSalary;
+}
 
 
+export function GetFieldDescripByIDS(CareerClusterMap, ClusterID, SubID)
+{
+    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldDescrip;
+}
 
-//require('./UserIcon.png')
 
-/*
-/// Test to build up a data system from scratch only using these methods.
+export function GetFieldGrowthRateByIDS(CareerClusterMap, ClusterID, SubID)
+{
+    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldGrowthRate;
+}
 
-//Creates a cluster for math
-AddCluster(CareerClusterMap, 'Mathematics', 'Math URL');
-//Creates a cluster for computer science
-AddCluster(CareerClusterMap, 'Computer Science', 'Comp Sci URL');
-//Creates a cluster for Art
-AddCluster(CareerClusterMap, 'Art', 'Art URL');
-console.log(CareerClusterMap);
 
-console.log("ADDING FIELD BELOW");
-//Now lets add some fields to those
-AddClusterField(CareerClusterMap, 1, 'Statistician', 'Stats Description', '$98,000', 'High', 'Stats URL', 'College');
+export function GetFieldEdLevelByIDS(CareerClusterMap, ClusterID, SubID)
+{
+    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldDescrip;
+}
 
-console.log(CareerClusterMap)
-console.log(CareerClusterMap.get(1).SubClusters)
 
-//Now lets delete the field and the second cluster
-DeleteClusterField(CareerClusterMap, 1, 1);
-DeleteCluster(CareerClusterMap, 2);
-
-console.log(CareerClusterMap)
-console.log(CareerClusterMap.get(1).SubClusters)
-
-*/
+export function SetFieldFinalToNull(CareerClusterMap, ClusterID, SubID)
+{
+    return CareerClusterMap.get(ClusterID).SubClusters[SubID].fieldFinal = null;
+}
