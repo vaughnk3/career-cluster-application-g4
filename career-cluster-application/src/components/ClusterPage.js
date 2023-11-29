@@ -81,24 +81,3 @@ const ClusterPage = () => {
 export default ClusterPage;
 
 
-
-/*  THIS IS OUR OLD WAY OF HAVING THE CLUSTERS UP
-
- <div>
-        <TopRectangle/>
-        <UserIcon/>
-        <div id="cluster-container">
-            <Cluster ID={1} /> 
-            <Cluster ID={2} />
-            <Cluster ID={1} />
-            <Cluster ID={2} />
-        </div>
-        
-        <BottomRectangle/>
-        
-        
-
-    </div>
-
-
-*/
