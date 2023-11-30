@@ -30,29 +30,41 @@ const SubFieldsPage = () => {
     //Now that we know which cluster and subcluster we are in, we can just grab the information via the functions from ClusterFunctions
     
     return (
-        <div>
+        <div id="page">
             <TopRectangle/>
             <UserIcon/>
-        
-            <br></br><br></br>
-            <div id="row">
-            <div id="topLeft">
-                <h2 id="fName"> { GetFieldNameByIDS (CareerClusterMap, ClusterID, SubID) } </h2>
-                <h2 id="fDesc"> { GetFieldDescripByIDS (CareerClusterMap, ClusterID, SubID) } </h2>
-            </div>
-            <button id="jobPostings">View Job Postings</button>
-            </div>
-            <div id="bottomMiddle">
-                <ul class="inline">
-                    <li class="fInlineTitle">Average Salary</li>
-                    <li class="fInlineTitle">Education Level</li>
-                    <li class="fInlineTitle">Growth Rate</li>
-                </ul><br></br>
-                <ul class="inline">
-                    <li class="fInline">{ GetFieldSalaryByIDS (CareerClusterMap, ClusterID, SubID) }</li>
-                    <li class="fInline">{ GetFieldEdLevelByIDS (CareerClusterMap, ClusterID, SubID) }</li>
-                    <li class="fInline">{ GetFieldGrowthRateByIDS (CareerClusterMap, ClusterID, SubID) }</li><br></br>
-                </ul>
+            <div id="content">
+                <div id="row">
+                    <div id="topLeft">
+                        <h2 id="fName"> { GetFieldNameByIDS (CareerClusterMap, ClusterID, SubID) } </h2>
+                        <h2 id="fDesc"> { GetFieldDescripByIDS (CareerClusterMap, ClusterID, SubID) } </h2>
+                    </div>
+                    <a id="view-button">View Job Postings</a>
+                </div>
+                <div id="bottomMiddle">
+                    <div class="field-statistic">
+                        <h2>Average Salary</h2>
+                        <h1>{ GetFieldSalaryByIDS (CareerClusterMap, ClusterID, SubID) }</h1>
+                    </div>
+                    <div class="field-statistic">
+                        <h2>Education Level</h2>
+                        <h1>{ GetFieldEdLevelByIDS (CareerClusterMap, ClusterID, SubID) }</h1>
+                    </div>
+                    <div class="field-statistic">
+                        <h2>Growth Rate</h2>
+                        <h1>{ GetFieldGrowthRateByIDS (CareerClusterMap, ClusterID, SubID) }</h1>
+                    </div>
+                    {/* <ul class="inline"> 
+                        <li class="fInlineTitle">Average Salary</li>
+                        <li class="fInlineTitle">Education Level</li>
+                        <li class="fInlineTitle">Growth Rate</li>
+                    </ul><br></br>
+                    <ul class="inline">
+                        <li class="fInline">{ GetFieldSalaryByIDS (CareerClusterMap, ClusterID, SubID) }</li>
+                        <li class="fInline">{ GetFieldEdLevelByIDS (CareerClusterMap, ClusterID, SubID) }</li>
+                        <li class="fInline">{ GetFieldGrowthRateByIDS (CareerClusterMap, ClusterID, SubID) }</li><br></br>
+                    </ul> */}
+                </div>
             </div>
             
             <BottomRectangle/>

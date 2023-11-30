@@ -84,15 +84,16 @@ const SubClusterPage = ( {} ) => {
     
 
     return (
-        <div>
+        <div id="page">
         <div id="_topRectangle">
-            <p>Please select a subcluster within the career cluster.</p>
+            <p>Please select a subcluster within the {GetClusterNameByID(CareerClusterMap, ClusterID)} cluster.</p>
         </div>
-        <br></br><br></br><br></br><br></br><br></br>
             <UserIcon/>
             {/* <h1 id="test">{clusterID}</h1> */}
-            <p> {ClusterID} </p>
-            <ul> {subComponentArray} </ul>
+            <div id="content">
+                <ul> {subComponentArray} </ul>
+            </div>
+
             <BottomRectangle/>
         </div>
     )

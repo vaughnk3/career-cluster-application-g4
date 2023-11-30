@@ -5,8 +5,11 @@ import './LoginPage.css'
 
 const LoginPage = () => {
     return (
-        <div>
+        <div id="page">
+            <div id="topbar">
             <TopLeftLogo/>
+        </div>
+        <div id="content">
             <div id="form">
                 <form>
                     <label for="usernameField"><strong>Username</strong></label><br></br>
@@ -14,10 +17,12 @@ const LoginPage = () => {
                     <label for="passwordField"><strong>Password</strong></label><br></br>
                     <input type="text" id="bottomField" placeholder='Input password here'/><br></br>
                     <p>Forgot Password?</p>
-                    <button type="submit" id="loginButton">Login</button>
+                    <a href="" id="login-button">Login</a>
                 </form>
             </div>
-            <BottomRectangle/>
+        </div>
+
+        <BottomRectangle/>
         </div>
     )
 };
