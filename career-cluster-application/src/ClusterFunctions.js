@@ -955,7 +955,7 @@ CareerClusterMap.set(
             {
                 fieldID: 4,
                 fieldFinal: null,
-                fieldName: 'Real Estate3',
+                fieldName: 'Real Estate',
                 fieldImageLink: '/Some/Other/Comp/Url',
                 fieldSalary: '$918,000',
                 fieldDescrip: 'Some comp sci description',
