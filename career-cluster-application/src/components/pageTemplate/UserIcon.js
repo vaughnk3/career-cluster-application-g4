@@ -4,7 +4,7 @@ import './UserIcon.css';
 const UserIcon = () => {
     return (
     <div>
-        <img src={require('./UserIcon.png')} alt="User Icon" className="top-right-image"></img>
+        <a href="/login"><img src={require('./UserIcon.png')} alt="User Icon" className="top-right-image"></img></a>
     </div>
     );
 }

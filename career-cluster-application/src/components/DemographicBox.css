@@ -53,9 +53,30 @@
     text-decoration: none;
  }
 
+
+.hidden {
+  color: gray;
+}
 .header {
   color: black;
   margin-bottom: 10px; /* Adjust the margin as needed */
 }
 
-  
+.select {
+  height:2rem;
+  border-radius: 10px 10px 0px 0px;
+  border:0;
+  color: gray;
+  font-weight: 600;
+  border-bottom:1.5px solid #98ca41
+ }
+
+
+ .test {
+  font-size: 1rem;
+  text-align: center;
+  color:black;
+  border-top: 1px solid #98ca41;
+  border:1px solid #98ca41;
+  font-weight: 400;
+ }

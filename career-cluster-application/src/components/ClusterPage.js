@@ -50,7 +50,7 @@ const ClusterPage = () => {
     for (let j = 0; j < ValidClusterArray.length; j++) 
     {
         ComponentArray.push(   
-        <form id="form" key={ValidClusterArray[j]} onSubmit={handleFormSubmit} >
+        <form id="form1" key={ValidClusterArray[j]} onSubmit={handleFormSubmit} >
             <Cluster ID={ValidClusterArray[j]} onClick={handleClusterClick} />
         </form>
         );
