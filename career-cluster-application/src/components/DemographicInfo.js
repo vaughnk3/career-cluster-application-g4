@@ -8,7 +8,7 @@ import './DemographicInfo.css';
 
 const DemographicInfo = () => {
   return (
-    <div>
+    <div id="page">
       <div id="topbar">
         <TopLeftLogo/>
         <UserIcon/>

@@ -1,5 +1,17 @@
 body {
 	text-align: center;
+	min-height: 100vh;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+#page {
+	min-height: 100vh;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 h2 {
@@ -14,14 +26,20 @@ h3 {
 	width: 100%;
 	min-height: 140px;
 	height: 140px;
-	background-color: pink;
+}
+
+#topbar img {
+	background-color: white;
+	border-radius: 10px;
 }
 
 #content {
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 80px;
-	margin-bottom: 80px;
-	
-	background: bisque;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	flex-grow: 1;
+  	flex-shrink: 0;
+  	flex-basis: auto;
 }
