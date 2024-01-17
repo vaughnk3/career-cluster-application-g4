@@ -3,6 +3,28 @@ import TopLeftLogo from './pageTemplate/TopLeftLogo';
 import BottomRectangle from './pageTemplate/BottomRectangle';
 import './LoginPage.css'
 
+import express from 'express';
+import mysql from 'mysql2';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+const app = express();
+
+const db = mysql.createConnection({
+    host: 'placeholder_host',
+    user: 'placeholder_user',
+    password: 'placeholder_password',
+    database: 'my_vaughnk3_clusters',
+});
+
+db.connect((err) => {
+    if(err) {
+        throw err;
+    }
+    console.log("Connected to MySQL!")
+})
+
+
 const LoginPage = () => {
     return (
         <div id="page">
